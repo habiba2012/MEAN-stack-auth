@@ -3,14 +3,11 @@
 /* BASIC */
 
 html {
-  /* background-color: #56edcc; */
 }
 
 body {
-  background-image: url('https://www.freepik.com/free-vector/couple-chatting-dating-website_9649285.htm#query=single%20user&position=0');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #56edcc;
+
   font-family: "Poppins", sans-serif;
   height: 100vh;
 }
@@ -313,8 +310,8 @@ label.validation-message{
 }
  
 th {
-  color:#060c13;;
-  background:#56edcc;
+  color:rgb(250, 242, 242);;
+  background:#041612de;
   border-bottom:4px solid #9ea7af;
   border-right: 1px solid #343a45;
   font-size:23px;

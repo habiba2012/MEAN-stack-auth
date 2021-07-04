@@ -14,9 +14,10 @@ import { appRoutes } from './routes';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { SignInComponent } from './user/sign-in/sign-in.component';
 import { UserService } from './shared/user.service';
-//other
+
 import { AuthGuard } from './auth/auth.guard';
 import { AuthInterceptor } from './auth/auth.interceptor';
+import { ParticlesModule } from 'angular-particle';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,9 @@ import { AuthInterceptor } from './auth/auth.interceptor';
     BrowserModule,
     FormsModule,
     RouterModule.forRoot(appRoutes),
-    HttpClientModule
+    HttpClientModule,
+    ParticlesModule
+    
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS,
